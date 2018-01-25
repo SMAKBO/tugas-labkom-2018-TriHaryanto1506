@@ -8,4 +8,4 @@ Hafizh Al Khoiri/16.62.08365/hapisal
 Maura Khalishah Bachrun/16.62.08408/maura11
 Rifa Fikriyyah Hazimah/16.62.08496/Rifafikriyyah
 Siti Nuraini/16.62.08528/sitinurainii
-Sri Maulidia/16.62.08529/sricabs
+Sri Maulidia/16.62.08529/sricans
