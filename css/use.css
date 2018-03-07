@@ -1,0 +1,25 @@
+body {
+	background-color: #1f1f2e
+}
+.atas {
+	margin-right: 7%;
+	margin-left: 7%;
+	background-color : #ffffff;
+	opacity: 0.9
+}
+.he1 {
+	border-bottom-style: double; 
+	border-bottom-color: #14141f; 
+	border-bottom-right-radius: 20px; 
+	border-bottom-width: thick;
+}
+.he2 {
+	border-bottom-style: solid; 
+	border-bottom-color: #14141f; 
+	border-bottom-right-radius: 20px; 
+	border-bottom-width: thin;
+}
+.by {
+	background-color: #000000; 
+	text-align: right;color: #d1d1e0
+}
