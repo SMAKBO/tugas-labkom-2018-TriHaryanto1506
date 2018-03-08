@@ -39,3 +39,7 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+body {
+    background-color: #1f1f2e;
+}
