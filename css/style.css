@@ -20,7 +20,13 @@
 
 .sidenav a:hover {
     color: #f1f1f1;
+    background-color: rgb(100,100,100);
 }
+
+.sidenav a:active {
+    background-color: rgb(100,100,100);
+    color: red;
+} 
 
 .main {
     margin-left: 230px; 
