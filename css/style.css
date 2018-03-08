@@ -1,3 +1,4 @@
+/* sidebar menu */
 .sidenav {
     height: 100%; 
     width: 220px; 
@@ -10,6 +11,7 @@
     padding-top: 20px;
 }
 
+/* navigation menu links */
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -18,16 +20,19 @@
     display: block;
 }
 
+/* style when you mouse over the navigation links */
 .sidenav a:hover {
     color: #f1f1f1;
     background-color: rgb(100,100,100);
 }
 
+/* style when the link is clicked */
 .sidenav a:active {
     background-color: rgb(100,100,100);
     color: red;
 } 
 
+/* style page content */
 .main {
     margin-left: 230px; 
     padding: 0px 10px;
@@ -35,6 +40,8 @@
     position: relative;
 }
 
+/* On smaller screens, where height is less than 450px, change the style of the sidebar 
+(less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
