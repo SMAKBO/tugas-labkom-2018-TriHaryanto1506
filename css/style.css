@@ -1,9 +1,9 @@
 .sidenav {
     height: 100%; 
-    width: 160px; 
-    position: fixed; 
+    width: 220px; 
+    position: relative; 
     z-index: 0; 
-    top: 250px; 
+    top: -32px; 
     left: 0;
     background-color: #111; 
     overflow-x: hidden;
@@ -23,8 +23,10 @@
 }
 
 .main {
-    margin-left: 160px; 
+    margin-left: 230px; 
     padding: 0px 10px;
+    top: -340px;
+    position: relative;
 }
 
 @media screen and (max-height: 450px) {
