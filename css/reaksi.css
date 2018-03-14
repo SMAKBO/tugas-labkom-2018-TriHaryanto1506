@@ -1,5 +1,6 @@
 body {
     background-image:url("../img/logo.png");
+	background-attachment: fixed;
 }
 p {
 	padding-right: 20px;
