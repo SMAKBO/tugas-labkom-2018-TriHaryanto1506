@@ -5,7 +5,9 @@ body {
 	margin-right: 7%;
 	margin-left: 7%;
 	background-color : #ffffff;
-	opacity: 0.9
+	opacity: 0.9;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 .he1 {
 	border-bottom-style: double; 
@@ -18,8 +20,6 @@ body {
 	border-bottom-color: #14141f; 
 	border-bottom-right-radius: 20px; 
 	border-bottom-width: thin;
-padding-right: 10px;
-	padding-left: 10px;
 }
 .by {
 	background-color: #000000; 
