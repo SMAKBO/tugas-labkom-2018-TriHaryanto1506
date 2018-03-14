@@ -14,14 +14,25 @@ body {
 	border-bottom-color: #14141f; 
 	border-bottom-right-radius: 20px; 
 	border-bottom-width: thick;
+	color: #778899;
 }
 .he2 {
 	border-bottom-style: solid; 
 	border-bottom-color: #14141f; 
 	border-bottom-right-radius: 20px; 
 	border-bottom-width: thin;
+	color: #B0C4DE;
 }
+
+h3	{
+	color: #87CEEB;
+}
+
 .by {
 	background-color: #000000; 
 	text-align: right;color: #d1d1e0
+}
+
+.display-4	{
+	color: #87CEFA;
 }
