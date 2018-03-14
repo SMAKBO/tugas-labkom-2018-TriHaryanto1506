@@ -48,7 +48,8 @@
 }
 
 body {
-    background-color: #1f1f2e;
+     background-image:url("../img/logo.png");
+     background-attachment: fixed;
 }
 .bawah {
     background-color: #00001a;
@@ -57,4 +58,10 @@ body {
 }
 .pa {
     text-align: middle
+}
+.img {
+    margin-top: 20px
+}
+.bli {
+    color: blue
 }
