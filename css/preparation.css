@@ -1,11 +1,22 @@
 body {
-	background-color: #1f1f2e
+    background-image:url("../img/logo.png");
+    background-attachment: fixed;
+}
+p {
+	padding-right: 20px;
+	padding-left: 20px
+}
+.pa{
+	padding: 80px;
+	background-color: #e0b3ff;
+	margin-right: 15%;
 }
 .atas {
 	margin-right: 7%;
 	margin-left: 7%;
-	background-color : #ffffff;
-	opacity: 0.9
+	background-color : #000000;
+	opacity: 0.8;
+	color: #ffffff;
 }
 .he1 {
 	border-bottom-style: double; 
@@ -24,5 +35,8 @@ body {
 	text-align: right;color: #d1d1e0
 }
 .bli {
-	color: blue;
+	color:blue
+}
+footer {
+	width: 100%;
 }
