@@ -39,3 +39,33 @@ h3	{
 
 P	{color: #40E0D0;
 }
+
+.atas {
+	margin-right: 7%;
+	margin-left: 7%;
+	background-color : #000000;
+	opacity: 0.9;
+	color: #ffffff
+}
+.he1 {
+	border-bottom-style: double; 
+	border-bottom-color: #14141f; 
+	border-bottom-right-radius: 20px; 
+	border-bottom-width: thick;
+}
+.he2 {
+	border-bottom-style: solid; 
+	border-bottom-color: #14141f; 
+	border-bottom-right-radius: 20px; 
+	border-bottom-width: thin;
+}
+.by {
+	background-color: #000000; 
+	text-align: right;color: #d1d1e0
+}
+.bawah {
+    background-image: url("img/banner1.jpg");
+}
+p{
+	padding-left:  2%
+}
