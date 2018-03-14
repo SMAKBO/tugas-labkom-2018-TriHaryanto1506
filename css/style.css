@@ -50,3 +50,11 @@
 body {
     background-color: #1f1f2e;
 }
+.bawah {
+    background-color: #00001a;
+    padding: 50px 10px 50px 10px;
+    color: #ffffff
+}
+.pa {
+    text-align: middle
+}
