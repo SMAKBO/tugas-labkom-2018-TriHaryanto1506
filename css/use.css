@@ -1,9 +1,9 @@
- .atas {
+.atas {
 	margin-right : 7 % ;
 	margin-left : 7 % ;
 	background-color : # 000000 ;
 	keburaman : 0.9 ;
-	warna : #ffffffff;
+	warna : #ffffffff
 }
 .he1 {
 	border-bottom-style : double ;
@@ -19,8 +19,7 @@
 }
 .oleh {
 	background-color : # 000000 ;
-	text-align : right ; 
-	warna : # d1d1e0
+	text-align : right ; warna : # d1d1e0
 }
 p {
 	padding-left :   2 %
