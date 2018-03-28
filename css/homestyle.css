@@ -8,15 +8,6 @@ body {
 	font-weight: 700;
 }
 
-.wrapper {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-weight: lighter;
-	font-size: 40px;
-}
-
 .welcome-section {
 	position: absolute;
 	width: 100%;
@@ -86,10 +77,4 @@ body {
 .content-hidden .fly-in-text li:nth-child(4) { transform: translate3d(30px, 0, 0); }
 .content-hidden .fly-in-text li:nth-child(5) { transform: translate3d(60px, 0, 0); }
 .content-hidden .enter-button { opacity: 0; transform: translate3d(0, -30px, 0); }
-
-
-
-
-
-
 
