@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Acetic Acid by Group 3 XI.9</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- css framework & source -->
+	<title>Intro Text Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="homestyle.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- end of css framework & source -->
 </head>
 <body>
-  <!-- jumbotron start -->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">Acetic Acid</h1>
-        <p class="lead">Website that explains all about Acetic Acid</p>
-    </div>
-  </div>
-  <!-- jumbotron end -->
-  <!-- sidenav start -->
-  <div class="sidenav">
-    <a href="definition.html">Definition</a>
-    <a href="history.html">History</a>
-    <a href="sifat.html">Properties</a>
-    <a href="reaksi.html">Reaction</a>
-    <a href="preparation.html">Preparation</a>
-    <a href="effect.html">Side Effects</a>
-    <a href="use.html">Use in Daily Life</a>
-  </div>
-  <!-- sidenav end -->
-  <!-- main content -->
-  <div class="main">
-  <h2>....</h2>
-  </div>
-  <!-- main content end -->
-  <div class="bawah">
-    <center><h1 class="pa">WE ARE ACETIC ADDICT</h1>
-<h2 class="pa">TRI & AKELA <sub>as</sub> PROGRAMMER AMEL & HAFIZH <sub>as</sub>DESIGNER SITI & SRI <sub>as</sub> WRITER RIFA & MAURA <sub>as</sub>INFORMATION SEARCHER</h2></center></div>
+	<div class="wrapper">
+		<h1>Hello People!</h1>
+	</div>
+	<div class="welcome-section content-hidden">
+		<div class="content-wrap">
+			<ul class="fly-in-text">
+				<li>H</li>
+				<li>E</li>
+				<li>L</li>
+				<li>L</li>
+				<li>O</li>
+			<a href="home.html" class="enter-button">Home</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		
+		$(function() {
+			var welcomeSection = $('.welcome-section'),
+				enterButton = welcomeSection.find('.enter-button');
+
+				setTimeout(function() {
+					welcomeSection.removeClass('content-hidden');
+				},800);
+
+				enterButton.on('click', function(e) {
+					e.preventDefault();
+					welcomeSection.addClass('content-hidden').fadeOut();
+				});
+		});
+
+	</script>			
 </body>
 </html>
